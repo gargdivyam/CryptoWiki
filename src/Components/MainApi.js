@@ -1,8 +1,8 @@
 
 
 import React, {Component} from 'react';
-import '../ProjectCss/Details.css'
-import Body from './Body.js'
+import '../ProjectCss/Detailerbeauty.css'
+import Body from './Main.js'
 
 class DetailApi extends Component 
 {
@@ -29,9 +29,7 @@ class DetailApi extends Component
             })
         });
     }
-
-    
-    render()
+ render()
     {
         var {details, flag} = this.state;
         

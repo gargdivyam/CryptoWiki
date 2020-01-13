@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 
-import '../ProjectCss/Body.css';
+import '../ProjectCss/Main.css';
 
 class Body extends Component 
 {
     render()
     {
 
+        
+        
+        
         var details = this.props.details;
         return(
             <div className="left">

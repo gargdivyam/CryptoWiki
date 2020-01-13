@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Heading from './Heading.js';
+import Heading from './Header.js';
 
 class ListApi extends Component {
 
@@ -25,8 +25,7 @@ class ListApi extends Component {
         });
     }
 
-
-    render()
+   render()
     {
         var {flag, items} = this.state;
         if(!flag)

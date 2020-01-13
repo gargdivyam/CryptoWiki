@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import DetailApi from './DetailApi.js'
+import DetailApi from './MainApi.js'
 
 
 class Extraction extends Component
  {
-
-    render()
+render()
     {
 
         var items = this.props.items;

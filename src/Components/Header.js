@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../ProjectCss/Heading.css';
-import Extraction from './Extraction.js';
+import '../ProjectCss/Header.css';
+import Extraction from './Extracting.js';
 class Heading extends Component {
   
     constructor()
@@ -20,8 +20,7 @@ class Heading extends Component {
         this.setState({btnClicked: false})
     }
 
-    
-    buttonHandler = (e) => 
+      buttonHandler = (e) => 
     {
         const state = this.state;
         this.setState({btnClicked: true});
